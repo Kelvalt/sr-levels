@@ -1,0 +1,42 @@
+//@version=6
+indicator("Universal S/R Levels", overlay=true, max_lines_count=500, max_labels_count=500)
+
+supportColor    = input.color(color.green, "Support")
+resistanceColor = input.color(color.red,   "Resistance")
+lineWidth       = input.int(1, "Line width", minval=1)
+
+var array<line>  drawnLines  = array.new<line>()
+var array<label> drawnLabels = array.new<label>()
+
+ticker   = syminfo.ticker
+belowStr = ""
+aboveStr = ""
+if ticker == "MSFT"
+    belowStr := "400.49,413.49,424.9,441.46,449.01"
+    aboveStr := "456.57,468.77,476.32,489.69,500.44"
+
+if barstate.islast
+    for ln in drawnLines
+        line.delete(ln)
+    for lb in drawnLabels
+        label.delete(lb)
+    array.clear(drawnLines)
+    array.clear(drawnLabels)
+
+    if belowStr != ""
+        for s in str.split(belowStr, ",")
+            p = str.tonumber(s)
+            if not na(p)
+                ln = line.new(bar_index - 1, p, bar_index, p, extend=extend.both, color=supportColor, width=lineWidth)
+                lb = label.new(bar_index, p, str.tostring(p), style=label.style_label_left, textcolor=supportColor, color=color.new(color.white, 100), size=size.small)
+                array.push(drawnLines, ln)
+                array.push(drawnLabels, lb)
+
+    if aboveStr != ""
+        for s in str.split(aboveStr, ",")
+            p = str.tonumber(s)
+            if not na(p)
+                ln = line.new(bar_index - 1, p, bar_index, p, extend=extend.both, color=resistanceColor, width=lineWidth)
+                lb = label.new(bar_index, p, str.tostring(p), style=label.style_label_left, textcolor=resistanceColor, color=color.new(color.white, 100), size=size.small)
+                array.push(drawnLines, ln)
+                array.push(drawnLabels, lb)
