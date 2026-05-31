@@ -76,6 +76,13 @@ else if ticker == "DELL"
     b3 := 295.01
     b4 := 306.76
     b5 := 319.5
+else if ticker == "GEV"
+    b1 := 837.71
+    b2 := 872.05
+    b3 := 888.0
+    b4 := 912.56
+    b5 := 943.92
+    a1 := 981.61
 else if ticker == "HOOD"
     b1 := 75.66
     b2 := 77.82
