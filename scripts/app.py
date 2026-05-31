@@ -171,13 +171,15 @@ def receive_levels():
     if not data:
         return jsonify({"error": "No data"}), 400
 
-    ticker        = data.get("ticker")
+    ticker        = (data.get("ticker") or "").strip().upper()
     current_price = data.get("current_price")
-    levels_below  = data.get("levels_below", [])
-    levels_above  = data.get("levels_above", [])
+    levels_below  = data.get("levels_below", []) or []
+    levels_above  = data.get("levels_above", []) or []
 
     if not ticker or current_price is None:
         return jsonify({"error": "Missing ticker or current_price"}), 400
+    if not isinstance(levels_below, list) or not isinstance(levels_above, list):
+        return jsonify({"error": "levels_below and levels_above must be arrays"}), 400
 
     save_ticker(ticker, current_price, levels_below, levels_above)
     write_csv(ticker, current_price, levels_below, levels_above)
