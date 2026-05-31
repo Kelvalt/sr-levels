@@ -14,6 +14,9 @@ aboveStr = ""
 if ticker == "MSFT"
     belowStr := "400.49,413.49,424.9,441.46,449.01"
     aboveStr := "456.57,468.77,476.32,489.69,500.44"
+else if ticker == "SPY"
+    belowStr := "717.22,720.01,722.8,727.16,730.06"
+    aboveStr := ""
 
 if barstate.islast
     for ln in drawnLines
