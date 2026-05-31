@@ -11,7 +11,10 @@ var array<label> drawnLabels = array.new<label>()
 ticker   = syminfo.ticker
 belowStr = ""
 aboveStr = ""
-if ticker == "MSFT"
+if ticker == "HOOD"
+    belowStr := "75.66,77.82,80.56,85.05,90.1"
+    aboveStr := "95.36,100.72,105.76,110.33,117.77"
+else if ticker == "MSFT"
     belowStr := "400.49,413.49,424.9,441.46,449.01"
     aboveStr := "456.57,468.77,476.32,489.69,500.44"
 else if ticker == "NVDA"
