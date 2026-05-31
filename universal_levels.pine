@@ -150,6 +150,12 @@ else if ticker == "NBIS"
     b3 := 121.75
     b4 := 136.14
     b5 := 140.94
+else if ticker == "NOW"
+    a1 := 680.17
+    a2 := 714.34
+    a3 := 744.79
+    a4 := 775.23
+    a5 := 837.72
 else if ticker == "NVDA"
     b1 := 184.83
     b2 := 188.92
