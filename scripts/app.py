@@ -92,62 +92,58 @@ def write_csv(ticker, current_price, levels_below, levels_above):
 def generate_pine():
     tickers = all_tickers()
 
+    max_below = max((len(t["levels_below"]) for t in tickers), default=0) or 5
+    max_above = max((len(t["levels_above"]) for t in tickers), default=0) or 5
+
     header = '''//@version=6
-indicator("Universal S/R Levels", overlay=true, max_lines_count=500, max_labels_count=500)
+indicator("Universal S/R Levels", overlay=true, max_labels_count=500)
 
 supportColor    = input.color(color.green, "Support")
 resistanceColor = input.color(color.red,   "Resistance")
 lineWidth       = input.int(1, "Line width", minval=1)
 
-var array<line>  drawnLines  = array.new<line>()
-var array<label> drawnLabels = array.new<label>()
+ticker = syminfo.ticker
 
-ticker   = syminfo.ticker
-belowStr = ""
-aboveStr = ""
 '''
+
+    var_decls = ""
+    for i in range(max_below):
+        var_decls += f"float b{i+1} = na\n"
+    for i in range(max_above):
+        var_decls += f"float a{i+1} = na\n"
+    var_decls += "\n"
 
     body = ""
+    if not tickers:
+        body = "// No tickers loaded yet\n"
     for i, t in enumerate(tickers):
         kw = "if" if i == 0 else "else if"
-        below = ",".join(str(x) for x in t["levels_below"])
-        above = ",".join(str(x) for x in t["levels_above"])
         body += f'{kw} ticker == "{t["ticker"]}"\n'
-        body += f'    belowStr := "{below}"\n'
-        body += f'    aboveStr := "{above}"\n'
+        assigned_any = False
+        for j, lvl in enumerate(t["levels_below"]):
+            body += f'    b{j+1} := {lvl}\n'
+            assigned_any = True
+        for j, lvl in enumerate(t["levels_above"]):
+            body += f'    a{j+1} := {lvl}\n'
+            assigned_any = True
+        if not assigned_any:
+            body += '    na\n'
 
-    footer = '''
-if barstate.islast
-    for ln in drawnLines
-        line.delete(ln)
-    for lb in drawnLabels
-        label.delete(lb)
-    array.clear(drawnLines)
-    array.clear(drawnLabels)
+    plots = "\n"
+    for i in range(max_below):
+        plots += f'plot(b{i+1}, color=supportColor, linewidth=lineWidth, title="Support {i+1}", style=plot.style_line)\n'
+    for i in range(max_above):
+        plots += f'plot(a{i+1}, color=resistanceColor, linewidth=lineWidth, title="Resistance {i+1}", style=plot.style_line)\n'
 
-    if belowStr != ""
-        for s in str.split(belowStr, ",")
-            p = str.tonumber(s)
-            if not na(p)
-                ln = line.new(bar_index - 1, p, bar_index, p, extend=extend.both, color=supportColor, width=lineWidth)
-                lb = label.new(bar_index, p, str.tostring(p), style=label.style_label_left, textcolor=supportColor, color=color.new(color.white, 100), size=size.small)
-                array.push(drawnLines, ln)
-                array.push(drawnLabels, lb)
+    labels = '\nif barstate.islast\n'
+    for i in range(max_below):
+        labels += f'    if not na(b{i+1})\n'
+        labels += f'        label.new(bar_index, b{i+1}, str.tostring(b{i+1}), style=label.style_label_left, textcolor=supportColor, color=color.new(color.white, 100), size=size.small)\n'
+    for i in range(max_above):
+        labels += f'    if not na(a{i+1})\n'
+        labels += f'        label.new(bar_index, a{i+1}, str.tostring(a{i+1}), style=label.style_label_left, textcolor=resistanceColor, color=color.new(color.white, 100), size=size.small)\n'
 
-    if aboveStr != ""
-        for s in str.split(aboveStr, ",")
-            p = str.tonumber(s)
-            if not na(p)
-                ln = line.new(bar_index - 1, p, bar_index, p, extend=extend.both, color=resistanceColor, width=lineWidth)
-                lb = label.new(bar_index, p, str.tostring(p), style=label.style_label_left, textcolor=resistanceColor, color=color.new(color.white, 100), size=size.small)
-                array.push(drawnLines, ln)
-                array.push(drawnLabels, lb)
-'''
-
-    if not tickers:
-        body = "// No tickers yet\n"
-
-    return header + body + footer
+    return header + var_decls + body + plots + labels
 
 def write_pine():
     script = generate_pine()
@@ -213,7 +209,7 @@ def health():
     }), 200
 
 
-# ---------- CORS (for the Chrome extension later) ----------
+# ---------- CORS ----------
 @app.after_request
 def cors(response):
     response.headers["Access-Control-Allow-Origin"]  = "*"

@@ -1,60 +1,126 @@
 //@version=6
-indicator("Universal S/R Levels", overlay=true, max_lines_count=500, max_labels_count=500)
+indicator("Universal S/R Levels", overlay=true, max_labels_count=500)
 
 supportColor    = input.color(color.green, "Support")
 resistanceColor = input.color(color.red,   "Resistance")
 lineWidth       = input.int(1, "Line width", minval=1)
 
-var array<line>  drawnLines  = array.new<line>()
-var array<label> drawnLabels = array.new<label>()
+ticker = syminfo.ticker
 
-ticker   = syminfo.ticker
-belowStr = ""
-aboveStr = ""
+float b1 = na
+float b2 = na
+float b3 = na
+float b4 = na
+float b5 = na
+float a1 = na
+float a2 = na
+float a3 = na
+float a4 = na
+float a5 = na
+
 if ticker == "ADBE"
-    belowStr := ""
-    aboveStr := "311.54,315.89,322.74,327.37,337.27"
+    a1 := 311.54
+    a2 := 315.89
+    a3 := 322.74
+    a4 := 327.37
+    a5 := 337.27
 else if ticker == "CRWV"
-    belowStr := "65.28,77.94,89.17,100.96,106.02"
-    aboveStr := "112.51,123.75,131.56,142.22,151.0"
+    b1 := 65.28
+    b2 := 77.94
+    b3 := 89.17
+    b4 := 100.96
+    b5 := 106.02
+    a1 := 112.51
+    a2 := 123.75
+    a3 := 131.56
+    a4 := 142.22
+    a5 := 151.0
 else if ticker == "HOOD"
-    belowStr := "75.66,77.82,80.56,85.05,90.1"
-    aboveStr := "95.36,100.72,105.76,110.33,117.77"
+    b1 := 75.66
+    b2 := 77.82
+    b3 := 80.56
+    b4 := 85.05
+    b5 := 90.1
+    a1 := 95.36
+    a2 := 100.72
+    a3 := 105.76
+    a4 := 110.33
+    a5 := 117.77
 else if ticker == "MSFT"
-    belowStr := "401.0,414.0,425.0,442.0,450.0"
-    aboveStr := "457.0,469.0,477.0,490.0,501.0"
+    b1 := 401.0
+    b2 := 414.0
+    b3 := 425.0
+    b4 := 442.0
+    b5 := 450.0
+    a1 := 457.0
+    a2 := 469.0
+    a3 := 477.0
+    a4 := 490.0
+    a5 := 501.0
 else if ticker == "NVDA"
-    belowStr := "184.83,188.92,196.53,200.43,212.15"
-    aboveStr := "221.1,225.57,232.0,236.2,243.47"
+    b1 := 184.83
+    b2 := 188.92
+    b3 := 196.53
+    b4 := 200.43
+    b5 := 212.15
+    a1 := 221.1
+    a2 := 225.57
+    a3 := 232.0
+    a4 := 236.2
+    a5 := 243.47
 else if ticker == "QQQ"
-    belowStr := "705.01,712.68,716.68,722.17,731.48"
-    aboveStr := ""
+    b1 := 705.01
+    b2 := 712.68
+    b3 := 716.68
+    b4 := 722.17
+    b5 := 731.48
 else if ticker == "SPY"
-    belowStr := "717.22,720.01,722.8,727.16,730.06"
-    aboveStr := ""
+    b1 := 717.22
+    b2 := 720.01
+    b3 := 722.8
+    b4 := 727.16
+    b5 := 730.06
+else if ticker == "TSLA"
+    b1 := 383.46
+    b2 := 400.71
+    b3 := 408.84
+    b4 := 415.75
+    b5 := 424.55
+    a1 := 436.78
+    a2 := 453.72
+    a3 := 474.33
+    a4 := 490.1
+    a5 := 498.88
+
+plot(b1, color=supportColor, linewidth=lineWidth, title="Support 1", style=plot.style_line)
+plot(b2, color=supportColor, linewidth=lineWidth, title="Support 2", style=plot.style_line)
+plot(b3, color=supportColor, linewidth=lineWidth, title="Support 3", style=plot.style_line)
+plot(b4, color=supportColor, linewidth=lineWidth, title="Support 4", style=plot.style_line)
+plot(b5, color=supportColor, linewidth=lineWidth, title="Support 5", style=plot.style_line)
+plot(a1, color=resistanceColor, linewidth=lineWidth, title="Resistance 1", style=plot.style_line)
+plot(a2, color=resistanceColor, linewidth=lineWidth, title="Resistance 2", style=plot.style_line)
+plot(a3, color=resistanceColor, linewidth=lineWidth, title="Resistance 3", style=plot.style_line)
+plot(a4, color=resistanceColor, linewidth=lineWidth, title="Resistance 4", style=plot.style_line)
+plot(a5, color=resistanceColor, linewidth=lineWidth, title="Resistance 5", style=plot.style_line)
 
 if barstate.islast
-    for ln in drawnLines
-        line.delete(ln)
-    for lb in drawnLabels
-        label.delete(lb)
-    array.clear(drawnLines)
-    array.clear(drawnLabels)
-
-    if belowStr != ""
-        for s in str.split(belowStr, ",")
-            p = str.tonumber(s)
-            if not na(p)
-                ln = line.new(bar_index - 1, p, bar_index, p, extend=extend.both, color=supportColor, width=lineWidth)
-                lb = label.new(bar_index, p, str.tostring(p), style=label.style_label_left, textcolor=supportColor, color=color.new(color.white, 100), size=size.small)
-                array.push(drawnLines, ln)
-                array.push(drawnLabels, lb)
-
-    if aboveStr != ""
-        for s in str.split(aboveStr, ",")
-            p = str.tonumber(s)
-            if not na(p)
-                ln = line.new(bar_index - 1, p, bar_index, p, extend=extend.both, color=resistanceColor, width=lineWidth)
-                lb = label.new(bar_index, p, str.tostring(p), style=label.style_label_left, textcolor=resistanceColor, color=color.new(color.white, 100), size=size.small)
-                array.push(drawnLines, ln)
-                array.push(drawnLabels, lb)
+    if not na(b1)
+        label.new(bar_index, b1, str.tostring(b1), style=label.style_label_left, textcolor=supportColor, color=color.new(color.white, 100), size=size.small)
+    if not na(b2)
+        label.new(bar_index, b2, str.tostring(b2), style=label.style_label_left, textcolor=supportColor, color=color.new(color.white, 100), size=size.small)
+    if not na(b3)
+        label.new(bar_index, b3, str.tostring(b3), style=label.style_label_left, textcolor=supportColor, color=color.new(color.white, 100), size=size.small)
+    if not na(b4)
+        label.new(bar_index, b4, str.tostring(b4), style=label.style_label_left, textcolor=supportColor, color=color.new(color.white, 100), size=size.small)
+    if not na(b5)
+        label.new(bar_index, b5, str.tostring(b5), style=label.style_label_left, textcolor=supportColor, color=color.new(color.white, 100), size=size.small)
+    if not na(a1)
+        label.new(bar_index, a1, str.tostring(a1), style=label.style_label_left, textcolor=resistanceColor, color=color.new(color.white, 100), size=size.small)
+    if not na(a2)
+        label.new(bar_index, a2, str.tostring(a2), style=label.style_label_left, textcolor=resistanceColor, color=color.new(color.white, 100), size=size.small)
+    if not na(a3)
+        label.new(bar_index, a3, str.tostring(a3), style=label.style_label_left, textcolor=resistanceColor, color=color.new(color.white, 100), size=size.small)
+    if not na(a4)
+        label.new(bar_index, a4, str.tostring(a4), style=label.style_label_left, textcolor=resistanceColor, color=color.new(color.white, 100), size=size.small)
+    if not na(a5)
+        label.new(bar_index, a5, str.tostring(a5), style=label.style_label_left, textcolor=resistanceColor, color=color.new(color.white, 100), size=size.small)
