@@ -80,6 +80,12 @@ else if ticker == "MSFT"
     a3 := 477.0
     a4 := 490.0
     a5 := 501.0
+else if ticker == "MU"
+    b1 := 700.44
+    b2 := 727.56
+    b3 := 750.52
+    b4 := 772.77
+    b5 := 800.59
 else if ticker == "NVDA"
     b1 := 184.83
     b2 := 188.92
