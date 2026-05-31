@@ -121,6 +121,12 @@ else if ticker == "MU"
     b3 := 750.52
     b4 := 772.77
     b5 := 800.59
+else if ticker == "NBIS"
+    b1 := 109.85
+    b2 := 117.72
+    b3 := 121.75
+    b4 := 136.14
+    b5 := 140.94
 else if ticker == "NVDA"
     b1 := 184.83
     b2 := 188.92
