@@ -35,6 +35,12 @@ else if ticker == "ADBE"
     a3 := 322.74
     a4 := 327.37
     a5 := 337.27
+else if ticker == "AMD"
+    b1 := 457.39
+    b2 := 471.65
+    b3 := 480.89
+    b4 := 492.06
+    b5 := 500.54
 else if ticker == "CRWV"
     b1 := 65.28
     b2 := 77.94
