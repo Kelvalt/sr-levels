@@ -41,6 +41,12 @@ else if ticker == "AMD"
     b3 := 480.89
     b4 := 492.06
     b5 := 500.54
+else if ticker == "AMZN"
+    b1 := 250.0
+    b2 := 253.75
+    b3 := 258.19
+    b4 := 265.27
+    b5 := 269.72
 else if ticker == "APP"
     b1 := 483.06
     b2 := 514.82
