@@ -46,6 +46,12 @@ else if ticker == "CRWV"
     a3 := 131.56
     a4 := 142.22
     a5 := 151.0
+else if ticker == "DELL"
+    b1 := 272.74
+    b2 := 282.68
+    b3 := 295.01
+    b4 := 306.76
+    b5 := 319.5
 else if ticker == "HOOD"
     b1 := 75.66
     b2 := 77.82
