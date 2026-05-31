@@ -89,6 +89,12 @@ else if ticker == "GEV"
     b4 := 912.56
     b5 := 943.92
     a1 := 981.61
+else if ticker == "GOOGL"
+    b1 := 355.6
+    b2 := 360.27
+    b3 := 364.29
+    b4 := 367.38
+    b5 := 373.19
 else if ticker == "HOOD"
     b1 := 75.66
     b2 := 77.82
