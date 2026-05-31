@@ -1,6 +1,10 @@
 ticker,current_price,level,type
-SPY,756.48,717.22,support
-SPY,756.48,720.01,support
-SPY,756.48,722.8,support
-SPY,756.48,727.16,support
-SPY,756.48,730.06,support
+SPY,756.48,740.04,support
+SPY,756.48,743.81,support
+SPY,756.48,746.83,support
+SPY,756.48,750.14,support
+SPY,756.48,754.67,support
+SPY,756.48,760.09,resistance
+SPY,756.48,763.29,resistance
+SPY,756.48,766.12,resistance
+SPY,756.48,770.07,resistance
