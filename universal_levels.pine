@@ -451,6 +451,12 @@ else if ticker == "IWM"
     a1 := 291.03
     a2 := 297.93
     a3 := 304.63
+else if ticker == "JNJ"
+    b1 := 169.98
+    b2 := 171.76
+    b3 := 176.02
+    b4 := 181.26
+    b5 := 186.85
 else if ticker == "META"
     b1 := 587.28
     b2 := 600.44
