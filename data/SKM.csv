@@ -1,10 +1,7 @@
 ticker,current_price,level,type
-SKM,37.34,28.82,support
-SKM,37.34,30.93,support
-SKM,37.34,33.17,support
-SKM,37.34,34.87,support
-SKM,37.34,36.66,support
-SKM,37.34,38.93,resistance
-SKM,37.34,40.8,resistance
-SKM,37.34,43.24,resistance
-SKM,37.34,45.52,resistance
+SKM,43.33,34.87,support
+SKM,43.33,36.66,support
+SKM,43.33,38.93,support
+SKM,43.33,40.8,support
+SKM,43.33,43.24,support
+SKM,43.33,45.52,resistance
