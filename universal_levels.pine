@@ -175,6 +175,12 @@ else if ticker == "BABA"
     a3 := 145.84
     a4 := 157.0
     a5 := 163.97
+else if ticker == "BE"
+    b1 := 145.57
+    b2 := 156.99
+    b3 := 165.49
+    b4 := 172.8
+    b5 := 178.82
 else if ticker == "CRWV"
     b1 := 65.28
     b2 := 77.94
