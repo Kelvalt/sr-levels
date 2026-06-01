@@ -893,6 +893,12 @@ else if ticker == "VST"
     a3 := 169.18
     a4 := 175.75
     a5 := 178.69
+else if ticker == "WDC"
+    b1 := 377.54
+    b2 := 391.57
+    b3 := 400.75
+    b4 := 414.67
+    b5 := 431.78
 
 plot(b1, color=supportColor, linewidth=lineWidth, title="Support 1", style=plot.style_line)
 plot(b2, color=supportColor, linewidth=lineWidth, title="Support 2", style=plot.style_line)
