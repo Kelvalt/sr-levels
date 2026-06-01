@@ -1,0 +1,11 @@
+ticker,current_price,level,type
+OKTA,123.0,108.41,support
+OKTA,123.0,110.72,support
+OKTA,123.0,114.68,support
+OKTA,123.0,116.88,support
+OKTA,123.0,121.94,support
+OKTA,123.0,125.13,resistance
+OKTA,123.0,128.21,resistance
+OKTA,123.0,132.6,resistance
+OKTA,123.0,135.35,resistance
+OKTA,123.0,140.39,resistance
