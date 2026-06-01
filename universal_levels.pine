@@ -209,6 +209,13 @@ else if ticker == "CAT"
     b3 := 803.84
     b4 := 829.36
     b5 := 854.87
+else if ticker == "CAVA"
+    b1 := 74.33
+    a1 := 79.09
+    a2 := 86.12
+    a3 := 90.43
+    a4 := 93.82
+    a5 := 98.03
 else if ticker == "CRWV"
     b1 := 65.28
     b2 := 77.94
