@@ -544,6 +544,12 @@ else if ticker == "MP"
     a3 := 80.13
     a4 := 83.93
     a5 := 88.7
+else if ticker == "MRVL"
+    b1 := 128.44
+    b2 := 134.58
+    b3 := 141.6
+    b4 := 150.02
+    b5 := 158.26
 else if ticker == "MSFT"
     b1 := 413.49
     b2 := 424.9
