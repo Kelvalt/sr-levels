@@ -197,6 +197,12 @@ else if ticker == "BLSH"
     a3 := 63.24
     a4 := 71.78
     a5 := 79.7
+else if ticker == "BMNR"
+    a1 := 30.2
+    a2 := 36.7
+    a3 := 41.62
+    a4 := 45.74
+    a5 := 50.97
 else if ticker == "CRWV"
     b1 := 65.28
     b2 := 77.94
