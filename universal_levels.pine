@@ -232,6 +232,12 @@ else if ticker == "RKLB"
     b3 := 99.51
     b4 := 104.57
     b5 := 107.66
+else if ticker == "SNDK"
+    b1 := 923.55
+    b2 := 949.3
+    b3 := 970.35
+    b4 := 983.63
+    b5 := 1000.79
 else if ticker == "SPY"
     b1 := 740.04
     b2 := 743.81
