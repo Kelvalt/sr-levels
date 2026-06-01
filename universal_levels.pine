@@ -505,6 +505,12 @@ else if ticker == "LRCX"
     a2 := 332.2
     a3 := 346.7
     a4 := 358.61
+else if ticker == "LULU"
+    a1 := 244.05
+    a2 := 251.85
+    a3 := 263.49
+    a4 := 269.56
+    a5 := 278.18
 else if ticker == "META"
     b1 := 587.28
     b2 := 600.44
