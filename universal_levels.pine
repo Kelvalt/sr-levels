@@ -472,6 +472,12 @@ else if ticker == "LITE"
     a1 := 869.26
     a2 := 915.6
     a3 := 950.35
+else if ticker == "LLY"
+    b1 := 1002.19
+    b2 := 1028.97
+    b3 := 1055.74
+    b4 := 1070.52
+    b5 := 1098.21
 else if ticker == "META"
     b1 := 587.28
     b2 := 600.44
