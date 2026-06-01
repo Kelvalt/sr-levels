@@ -1,0 +1,11 @@
+ticker,current_price,level,type
+CSCO,120.55,96.86,support
+CSCO,120.55,102.29,support
+CSCO,120.55,108.16,support
+CSCO,120.55,113.91,support
+CSCO,120.55,117.59,support
+CSCO,120.55,121.04,resistance
+CSCO,120.55,127.6,resistance
+CSCO,120.55,132.32,resistance
+CSCO,120.55,138.53,resistance
+CSCO,120.55,144.97,resistance
