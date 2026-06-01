@@ -2146,3 +2146,436 @@ Port 5000 is in use by another program. Either identify and stop that program, o
 Address already in use
 Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
 [Sun May 31 05:39:56 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 07:34:38.375797] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.122.152:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 560-095-045
+[2026-06-01 07:37:20.734171] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.122.152:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 560-095-045
+127.0.0.1 - - [01/Jun/2026 07:37:21] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:21] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:21] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:21] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:21] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:21] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:21] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:21] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:21] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:21] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:21] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:21] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:22] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:22] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:22] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:22] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:22] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:22] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:22] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:22] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:22] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:22] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:22] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:22] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:22] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:23] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:24] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:24] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:24] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:24] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:24] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:24] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:24] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:24] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:24] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:24] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:24] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:25] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:25] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:25] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:25] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:25] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:25] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:25] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:25] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:25] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:25] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:25] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:25] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:25] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:25] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:26] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:26] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:26] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:26] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:26] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:26] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:27] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:27] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:27] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:27] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:27] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:27] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:30] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:30] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:30] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:31] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:31] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:35] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:35] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:36] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:36] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:39] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:39] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:41] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:41] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:44] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:44] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:46] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:46] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:51] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:51] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:51] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:51] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:56] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:56] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:56] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:56] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:59] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:37:59] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:01] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:01] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:05] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:05] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:06] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:06] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:08] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:08] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:09] "GET /pine HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:11] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:11] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:13] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:13] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:16] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:16] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:18] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:18] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:21] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:21] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:23] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:26] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:26] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:28] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:28] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:31] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:31] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:33] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:33] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:36] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:36] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:38] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:38] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:41] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:41] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:43] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:43] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:46] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:46] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:48] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:48] "GET /levels HTTP/1.1" 200 -
+ * Detected change in '/home/hunter/sr-levels/scripts/app.py', reloading
+[2026-06-01 07:37:20.817697] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Restarting with stat
+127.0.0.1 - - [01/Jun/2026 07:38:51] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:53] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:53] "GET /levels HTTP/1.1" 200 -
+[Mon Jun  1 07:38:55 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 07:38:57.694808] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.122.152:5000
+Press CTRL+C to quit
+127.0.0.1 - - [01/Jun/2026 07:38:58] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:58] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:58] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:38:58] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:39:00.694755] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:39:00 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:39:01] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:01] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:03] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:03] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:39:05.796989] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:39:05 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:39:06] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:06] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:06] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:08] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:08] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:39:10.888058] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:39:10 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:39:11] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:11] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:13] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:13] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:39:15.994097] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:39:16 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:39:16] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:16] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:18] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:18] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:21] "GET /health HTTP/1.1" 200 -
+[2026-06-01 07:39:21.092021] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:39:21 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:39:21] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:23] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:26] "GET /health HTTP/1.1" 200 -
+[2026-06-01 07:39:26.203002] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:39:26 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:39:26] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:28] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:28] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:31] "GET /health HTTP/1.1" 200 -
+[2026-06-01 07:39:31.314032] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:39:31 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:39:31] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:33] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:33] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:36] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:36] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:39:36.407970] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:39:36 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:39:38] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:38] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:41] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:41] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:39:41.515164] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:39:41 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:39:43] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:43] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:46] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:46] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:39:46.620415] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:39:46 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:39:48] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:48] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:51] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:51] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:39:51.731639] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:39:51 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:39:53] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:53] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:56] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:56] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:39:56.832385] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:39:56 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:39:58] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:39:58] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:01] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:01] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:40:01.932490] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:40:01 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:40:03] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:03] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:06] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:06] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:40:07.020690] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:40:07 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:40:08] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:08] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:11] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:11] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:40:12.120485] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:40:12 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:40:13] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:13] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:16] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:16] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:40:17.219058] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:40:17 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:40:18] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:18] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:21] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:21] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:40:22.317771] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:40:22 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:40:23] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:23] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:26] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:26] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:40:27.423138] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:40:27 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:40:28] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:28] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:31] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:31] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:40:32.521681] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:40:32 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:40:33] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:33] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:36] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:36] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:40:37.603645] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:40:37 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:40:38] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:38] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:41] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:41] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:40:42.705950] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:40:42 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:40:43] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:43] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:46] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:46] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:40:47.816195] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:40:47 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:40:48] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:48] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:51] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:51] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:40:52.920210] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:40:52 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:40:53] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:53] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:56] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:56] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 07:40:58.027013] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 07:40:58 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 07:40:58] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:40:58] "GET /levels HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:41:01] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jun/2026 07:41:01] "GET /levels HTTP/1.1" 200 -
