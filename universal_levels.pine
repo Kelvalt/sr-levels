@@ -841,6 +841,11 @@ else if ticker == "TTWO"
     a3 := 241.29
     a4 := 251.82
     a5 := 258.79
+else if ticker == "U"
+    a1 := 44.59
+    a2 := 67.64
+    a3 := 87.88
+    a4 := 111.04
 
 plot(b1, color=supportColor, linewidth=lineWidth, title="Support 1", style=plot.style_line)
 plot(b2, color=supportColor, linewidth=lineWidth, title="Support 2", style=plot.style_line)
