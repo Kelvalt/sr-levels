@@ -279,6 +279,12 @@ else if ticker == "CSCO"
     a3 := 132.32
     a4 := 138.53
     a5 := 144.97
+else if ticker == "CVNA"
+    a1 := 211.16
+    a2 := 229.87
+    a3 := 248.03
+    a4 := 266.19
+    a5 := 286.0
 else if ticker == "DELL"
     b1 := 272.74
     b2 := 282.68
