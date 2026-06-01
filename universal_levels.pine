@@ -436,6 +436,12 @@ else if ticker == "IREN"
     a3 := 70.02
     a4 := 72.34
     a5 := 75.37
+else if ticker == "ISRG"
+    a1 := 460.32
+    a2 := 486.26
+    a3 := 520.85
+    a4 := 559.36
+    a5 := 582.62
 else if ticker == "META"
     b1 := 587.28
     b2 := 600.44
