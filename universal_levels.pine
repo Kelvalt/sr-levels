@@ -57,6 +57,12 @@ else if ticker == "AFRM"
     a3 := 83.26
     a4 := 88.41
     a5 := 91.47
+else if ticker == "ALAB"
+    b1 := 208.61
+    b2 := 225.4
+    b3 := 238.06
+    b4 := 253.35
+    b5 := 263.31
 else if ticker == "AMD"
     b1 := 457.39
     b2 := 471.65
