@@ -830,6 +830,17 @@ else if ticker == "TSM"
     b5 := 412.82
     a1 := 421.81
     a2 := 426.69
+else if ticker == "TTWO"
+    b1 := 188.8
+    b2 := 192.53
+    b3 := 200.95
+    b4 := 211.32
+    b5 := 220.23
+    a1 := 226.06
+    a2 := 234.97
+    a3 := 241.29
+    a4 := 251.82
+    a5 := 258.79
 
 plot(b1, color=supportColor, linewidth=lineWidth, title="Support 1", style=plot.style_line)
 plot(b2, color=supportColor, linewidth=lineWidth, title="Support 2", style=plot.style_line)
