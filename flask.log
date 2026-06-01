@@ -25833,3 +25833,79 @@ Port 5000 is in use by another program. Either identify and stop that program, o
 [Mon Jun  1 09:58:51 PDT 2026] Flask exited, restarting in 5s...
 127.0.0.1 - - [01/Jun/2026 09:58:51] "GET /levels HTTP/1.1" 200 -
 127.0.0.1 - - [01/Jun/2026 09:58:51] "GET /pine HTTP/1.1" 200 -
+[2026-06-01 09:58:51.779275] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 09:58:51 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 09:58:51] "GET /pine HTTP/1.1" 200 -
+[2026-06-01 09:58:52.016569] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 09:58:52 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 09:58:52.185566] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 09:58:52 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 09:58:52.206816] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 09:58:52 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 09:58:52.339017] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 09:58:52 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 09:58:53.121341] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+100.79.93.97 - - [01/Jun/2026 09:58:53] "POST /levels HTTP/1.1" 200 -
+[Mon Jun  1 09:58:53 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 09:58:53.241726] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 09:58:53 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 09:58:53.652193] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 09:58:53 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 09:58:54.660618] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 09:58:54 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 09:58:54.842264] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 09:58:54 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 09:58:54.888214] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 09:58:54 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 09:58:54] "GET /health HTTP/1.1" 200 -
+[2026-06-01 09:58:55.025423] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 09:58:55 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 09:58:55] "GET /levels HTTP/1.1" 200 -
