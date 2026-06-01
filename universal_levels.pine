@@ -155,6 +155,12 @@ else if ticker == "AVGO"
     a2 := 467.38
     a3 := 478.15
     a4 := 496.46
+else if ticker == "AXTI"
+    b1 := 39.52
+    b2 := 41.22
+    b3 := 43.17
+    b4 := 45.97
+    b5 := 49.27
 else if ticker == "CRWV"
     b1 := 65.28
     b2 := 77.94
