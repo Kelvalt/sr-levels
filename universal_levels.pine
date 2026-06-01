@@ -681,6 +681,14 @@ else if ticker == "QQQ"
     a1 := 740.97
     a2 := 746.88
     a3 := 750.46
+else if ticker == "RBLX"
+    b1 := 43.53
+    b2 := 47.1
+    a1 := 48.03
+    a2 := 50.86
+    a3 := 53.24
+    a4 := 55.14
+    a5 := 57.72
 else if ticker == "RKLB"
     b1 := 86.37
     b2 := 92.77
