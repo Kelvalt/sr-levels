@@ -715,6 +715,12 @@ else if ticker == "ROKU"
     a1 := 142.42
     a2 := 171.97
     a3 := 197.3
+else if ticker == "SBET"
+    a1 := 8.47
+    a2 := 16.0
+    a3 := 21.08
+    a4 := 25.32
+    a5 := 30.14
 else if ticker == "SNDK"
     b1 := 923.55
     b2 := 949.3
