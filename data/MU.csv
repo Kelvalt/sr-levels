@@ -1,6 +1,11 @@
 ticker,current_price,level,type
-MU,964.78,700.44,support
-MU,964.78,727.56,support
-MU,964.78,750.52,support
-MU,964.78,772.77,support
-MU,964.78,800.59,support
+MU,964.78,863.5,support
+MU,964.78,888.46,support
+MU,964.78,900.35,support
+MU,964.78,916.99,support
+MU,964.78,928.88,support
+MU,964.78,1000.79,resistance
+MU,964.78,1031.84,resistance
+MU,964.78,1058.45,resistance
+MU,964.78,1086.17,resistance
+MU,964.78,1100.59,resistance
