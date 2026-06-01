@@ -1,8 +1,9 @@
 ticker,current_price,level,type
-TEM,50.36,42.21,support
-TEM,50.36,47.9,support
-TEM,50.36,52.6,resistance
-TEM,50.36,56.84,resistance
-TEM,50.36,60.38,resistance
-TEM,50.36,63.58,resistance
-TEM,50.36,68.81,resistance
+TEM,53.12,42.21,support
+TEM,53.12,47.9,support
+TEM,53.12,52.6,support
+TEM,53.12,56.84,resistance
+TEM,53.12,60.38,resistance
+TEM,53.12,63.58,resistance
+TEM,53.12,68.81,resistance
+TEM,53.12,71.52,resistance

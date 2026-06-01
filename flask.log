@@ -33019,3 +33019,179 @@ Address already in use
 Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
 [Mon Jun  1 10:03:48 PDT 2026] Flask exited, restarting in 5s...
 127.0.0.1 - - [01/Jun/2026 10:03:48] "GET /pine HTTP/1.1" 200 -
+[2026-06-01 10:03:48.942462] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 10:03:48 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 10:03:49.110087] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 10:03:49 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 10:03:49.471206] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 10:03:49 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 10:03:49.676863] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 10:03:49 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 10:03:50.004569] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 10:03:50 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 08:03:04.033935] Wrote CSV: /home/hunter/sr-levels/data/ORCL.csv
+[2026-06-01 08:03:04.034825] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 08:03:05.497636] Pushed to GitHub
+[2026-06-01 08:12:17.967635] Wrote CSV: /home/hunter/sr-levels/data/META.csv
+[2026-06-01 08:12:17.968557] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 08:12:19.333551] Pushed to GitHub
+[2026-06-01 08:17:36.359130] Wrote CSV: /home/hunter/sr-levels/data/RDDT.csv
+[2026-06-01 08:17:36.359991] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 08:17:37.804260] Pushed to GitHub
+[2026-06-01 08:21:44.586805] Wrote CSV: /home/hunter/sr-levels/data/QQQ.csv
+[2026-06-01 08:21:44.587613] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 08:21:45.937787] Pushed to GitHub
+[2026-06-01 08:26:09.153676] Wrote CSV: /home/hunter/sr-levels/data/GS.csv
+[2026-06-01 08:26:09.154588] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 08:26:10.645617] Pushed to GitHub
+[2026-06-01 08:29:54.471062] Wrote CSV: /home/hunter/sr-levels/data/ORCL.csv
+[2026-06-01 08:29:54.471954] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 08:29:55.798475] Pushed to GitHub
+[2026-06-01 08:32:08.000174] Wrote CSV: /home/hunter/sr-levels/data/AMD.csv
+[2026-06-01 08:32:08.001222] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 08:32:09.484859] Pushed to GitHub
+[2026-06-01 08:34:54.104495] Wrote CSV: /home/hunter/sr-levels/data/ARM.csv
+[2026-06-01 08:34:54.105355] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 08:34:55.469348] Pushed to GitHub
+[2026-06-01 09:04:50.956960] Wrote CSV: /home/hunter/sr-levels/data/SPY.csv
+[2026-06-01 09:04:50.957794] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 09:04:52.382116] Pushed to GitHub
+[2026-06-01 09:25:43.484168] Wrote CSV: /home/hunter/sr-levels/data/TSLA.csv
+[2026-06-01 09:25:43.485013] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 09:25:45.518380] Pushed to GitHub
+[2026-06-01 09:44:10.965620] Wrote CSV: /home/hunter/sr-levels/data/NVDA.csv
+[2026-06-01 09:44:10.966610] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 09:44:12.395465] Pushed to GitHub
+[2026-06-01 09:49:20.392294] Wrote CSV: /home/hunter/sr-levels/data/HIMS.csv
+[2026-06-01 09:49:20.393318] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 09:49:21.849030] Pushed to GitHub
+[2026-06-01 09:52:07.550318] Wrote CSV: /home/hunter/sr-levels/data/MSFT.csv
+[2026-06-01 09:52:07.551236] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 09:52:09.005157] Pushed to GitHub
+[2026-06-01 09:56:02.287098] Wrote CSV: /home/hunter/sr-levels/data/QQQ.csv
+[2026-06-01 09:56:02.288058] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 09:56:03.775817] Pushed to GitHub
+[2026-06-01 09:58:34.366494] Wrote CSV: /home/hunter/sr-levels/data/LULU.csv
+[2026-06-01 09:58:34.367594] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 09:58:35.817763] Pushed to GitHub
+[2026-06-01 09:58:37.699271] Wrote CSV: /home/hunter/sr-levels/data/LUNR.csv
+[2026-06-01 09:58:37.700770] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 09:58:39.227529] Pushed to GitHub
+[2026-06-01 09:58:41.684735] Wrote CSV: /home/hunter/sr-levels/data/MDB.csv
+[2026-06-01 09:58:41.685788] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 09:58:43.262292] Pushed to GitHub
+[2026-06-01 09:58:46.782229] Wrote CSV: /home/hunter/sr-levels/data/META.csv
+[2026-06-01 09:58:46.783213] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 09:58:48.306785] Pushed to GitHub
+[2026-06-01 09:58:49.382875] Wrote CSV: /home/hunter/sr-levels/data/MP.csv
+[2026-06-01 09:58:49.383993] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 09:58:50.794275] Pushed to GitHub
+[2026-06-01 09:58:51.720095] Wrote CSV: /home/hunter/sr-levels/data/MRVL.csv
+[2026-06-01 09:58:51.721167] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 09:58:53.130618] Pushed to GitHub
+[2026-06-01 09:58:55.343254] Wrote CSV: /home/hunter/sr-levels/data/NBIS.csv
+[2026-06-01 09:58:55.344195] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 09:58:56.690275] Pushed to GitHub
+[2026-06-01 09:59:49.681153] Wrote CSV: /home/hunter/sr-levels/data/ORCL.csv
+[2026-06-01 09:59:49.682115] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 09:59:51.141832] Pushed to GitHub
+[2026-06-01 10:01:59.235821] Wrote CSV: /home/hunter/sr-levels/data/NET.csv
+[2026-06-01 10:01:59.236732] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 10:02:01.646532] Pushed to GitHub
+[2026-06-01 10:02:02.411710] Wrote CSV: /home/hunter/sr-levels/data/NFLX.csv
+[2026-06-01 10:02:02.412556] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 10:02:03.894305] Pushed to GitHub
+[2026-06-01 10:02:04.236937] Wrote CSV: /home/hunter/sr-levels/data/NOW.csv
+[2026-06-01 10:02:04.237981] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 10:02:05.850842] Pushed to GitHub
+[2026-06-01 10:02:08.577905] Wrote CSV: /home/hunter/sr-levels/data/OKLO.csv
+[2026-06-01 10:02:08.578946] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 10:02:10.146224] Pushed to GitHub
+[2026-06-01 10:02:12.070401] Wrote CSV: /home/hunter/sr-levels/data/OKTA.csv
+[2026-06-01 10:02:12.071250] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 10:02:13.440947] Pushed to GitHub
+[2026-06-01 10:02:15.708187] Wrote CSV: /home/hunter/sr-levels/data/RBLX.csv
+[2026-06-01 10:02:15.709090] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 10:02:17.184833] Pushed to GitHub
+[2026-06-01 10:02:20.220708] Wrote CSV: /home/hunter/sr-levels/data/RDDT.csv
+[2026-06-01 10:02:20.221617] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 10:02:21.674213] Pushed to GitHub
+[2026-06-01 10:02:25.503934] Wrote CSV: /home/hunter/sr-levels/data/RKLB.csv
+[2026-06-01 10:02:25.504852] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 10:02:26.989243] Pushed to GitHub
+[2026-06-01 10:02:33.559561] Wrote CSV: /home/hunter/sr-levels/data/ORCL.csv
+[2026-06-01 10:02:33.560444] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 10:02:35.010863] Pushed to GitHub
+[2026-06-01 10:02:35.038501] Wrote CSV: /home/hunter/sr-levels/data/ROKU.csv
+[2026-06-01 10:02:35.039438] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 10:02:36.474612] Pushed to GitHub
+[2026-06-01 10:03:32.683563] Wrote CSV: /home/hunter/sr-levels/data/SBET.csv
+[2026-06-01 10:03:32.684912] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 10:03:34.214631] Pushed to GitHub
+[2026-06-01 10:03:35.392055] Wrote CSV: /home/hunter/sr-levels/data/SBUX.csv
+[2026-06-01 10:03:35.392949] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 10:03:36.828284] Pushed to GitHub
+[2026-06-01 10:03:38.895898] Wrote CSV: /home/hunter/sr-levels/data/SHOP.csv
+[2026-06-01 10:03:38.896921] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 10:03:40.626102] Pushed to GitHub
+[2026-06-01 10:03:43.944748] Wrote CSV: /home/hunter/sr-levels/data/SKM.csv
+[2026-06-01 10:03:43.945686] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 10:03:45.381815] Pushed to GitHub
+[2026-06-01 10:03:46.462118] Wrote CSV: /home/hunter/sr-levels/data/SLV.csv
+[2026-06-01 10:03:46.463003] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+[2026-06-01 10:03:47.925479] Pushed to GitHub
+[2026-06-01 10:03:48.821111] Wrote CSV: /home/hunter/sr-levels/data/SNOW.csv
+[2026-06-01 10:03:48.822078] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+100.79.93.97 - - [01/Jun/2026 10:03:50] "POST /levels HTTP/1.1" 200 -
+[2026-06-01 10:03:50.499113] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 10:03:50 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 10:03:50.789939] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 10:03:50 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 10:03:50.875408] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 10:03:50 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 10:03:50.911669] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 10:03:50 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 10:03:50] "GET /health HTTP/1.1" 200 -
+[2026-06-01 10:03:51.176721] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 10:03:51 PDT 2026] Flask exited, restarting in 5s...
+127.0.0.1 - - [01/Jun/2026 10:03:51] "GET /levels HTTP/1.1" 200 -
