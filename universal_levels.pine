@@ -752,6 +752,13 @@ else if ticker == "SKM"
     a2 := 40.8
     a3 := 43.24
     a4 := 45.52
+else if ticker == "SLV"
+    b1 := 63.32
+    a1 := 69.02
+    a2 := 74.17
+    a3 := 78.35
+    a4 := 84.79
+    a5 := 87.52
 else if ticker == "SNDK"
     b1 := 923.55
     b2 := 949.3
