@@ -882,6 +882,17 @@ else if ticker == "UPST"
     a3 := 47.03
     a4 := 53.02
     a5 := 57.5
+else if ticker == "VST"
+    b1 := 131.67
+    b2 := 138.54
+    b3 := 145.4
+    b4 := 151.82
+    b5 := 156.5
+    a1 := 160.88
+    a2 := 165.84
+    a3 := 169.18
+    a4 := 175.75
+    a5 := 178.69
 
 plot(b1, color=supportColor, linewidth=lineWidth, title="Support 1", style=plot.style_line)
 plot(b2, color=supportColor, linewidth=lineWidth, title="Support 2", style=plot.style_line)
