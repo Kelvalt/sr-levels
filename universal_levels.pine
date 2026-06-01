@@ -18,7 +18,18 @@ float a3 = na
 float a4 = na
 float a5 = na
 
-if ticker == "AAPL"
+if ticker == "AAOI"
+    b1 := 135.18
+    b2 := 139.03
+    b3 := 145.29
+    b4 := 149.04
+    b5 := 152.58
+    a1 := 157.4
+    a2 := 162.73
+    a3 := 166.2
+    a4 := 171.13
+    a5 := 175.32
+else if ticker == "AAPL"
     b1 := 282.54
     b2 := 288.72
     b3 := 293.86
