@@ -905,6 +905,16 @@ else if ticker == "XOM"
     b3 := 124.37
     b4 := 126.46
     b5 := 129.54
+else if ticker == "XYZ"
+    b1 := 38.85
+    b2 := 54.73
+    b3 := 61.36
+    b4 := 75.15
+    a1 := 81.54
+    a2 := 92.4
+    a3 := 100.34
+    a4 := 107.04
+    a5 := 120.45
 
 plot(b1, color=supportColor, linewidth=lineWidth, title="Support 1", style=plot.style_line)
 plot(b2, color=supportColor, linewidth=lineWidth, title="Support 2", style=plot.style_line)
