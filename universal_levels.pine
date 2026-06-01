@@ -899,6 +899,12 @@ else if ticker == "WDC"
     b3 := 400.75
     b4 := 414.67
     b5 := 431.78
+else if ticker == "XOM"
+    b1 := 119.95
+    b2 := 121.27
+    b3 := 124.37
+    b4 := 126.46
+    b5 := 129.54
 
 plot(b1, color=supportColor, linewidth=lineWidth, title="Support 1", style=plot.style_line)
 plot(b2, color=supportColor, linewidth=lineWidth, title="Support 2", style=plot.style_line)
