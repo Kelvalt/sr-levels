@@ -822,6 +822,14 @@ else if ticker == "TSLA"
     a3 := 474.33
     a4 := 490.1
     a5 := 498.88
+else if ticker == "TSM"
+    b1 := 380.72
+    b2 := 388.94
+    b3 := 394.08
+    b4 := 400.5
+    b5 := 412.82
+    a1 := 421.81
+    a2 := 426.69
 
 plot(b1, color=supportColor, linewidth=lineWidth, title="Support 1", style=plot.style_line)
 plot(b2, color=supportColor, linewidth=lineWidth, title="Support 2", style=plot.style_line)
