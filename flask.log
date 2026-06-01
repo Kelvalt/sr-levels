@@ -31028,3 +31028,34 @@ Port 5000 is in use by another program. Either identify and stop that program, o
 [Mon Jun  1 10:02:33 PDT 2026] Flask exited, restarting in 5s...
 127.0.0.1 - - [01/Jun/2026 10:02:33] "GET /health HTTP/1.1" 200 -
 127.0.0.1 - - [01/Jun/2026 10:02:33] "GET /levels HTTP/1.1" 200 -
+[2026-06-01 10:02:33.960043] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 10:02:33 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 10:02:34.188272] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 10:02:34 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 10:02:34.264356] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 10:02:34 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 10:02:34.314306] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 10:02:34 PDT 2026] Flask exited, restarting in 5s...
+[2026-06-01 10:02:34.644673] Wrote Pine Script: /home/hunter/sr-levels/universal_levels.pine
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[Mon Jun  1 10:02:34 PDT 2026] Flask exited, restarting in 5s...
+100.79.93.97 - - [01/Jun/2026 10:02:35] "POST /levels HTTP/1.1" 200 -
