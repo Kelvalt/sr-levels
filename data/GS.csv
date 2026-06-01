@@ -1,6 +1,9 @@
 ticker,current_price,level,type
-GS,1023.75,936.72,support
-GS,1023.75,944.44,support
-GS,1023.75,951.3,support
-GS,1023.75,972.84,support
-GS,1023.75,994.37,support
+GS,1037.22,944.44,support
+GS,1037.22,972.84,support
+GS,1037.22,994.37,support
+GS,1037.22,1010.46,support
+GS,1037.22,1027.9,support
+GS,1037.22,1049.58,resistance
+GS,1037.22,1072.84,resistance
+GS,1037.22,1107.21,resistance
