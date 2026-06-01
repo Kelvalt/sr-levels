@@ -489,6 +489,12 @@ else if ticker == "LMND"
     a3 := 69.09
     a4 := 73.87
     a5 := 77.27
+else if ticker == "LMT"
+    a1 := 560.03
+    a2 := 574.44
+    a3 := 596.75
+    a4 := 610.78
+    a5 := 622.29
 else if ticker == "META"
     b1 := 587.28
     b2 := 600.44
