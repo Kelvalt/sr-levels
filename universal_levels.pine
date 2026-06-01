@@ -846,6 +846,13 @@ else if ticker == "U"
     a2 := 67.64
     a3 := 87.88
     a4 := 111.04
+else if ticker == "UBER"
+    b1 := 69.63
+    a1 := 71.27
+    a2 := 72.91
+    a3 := 75.56
+    a4 := 77.42
+    a5 := 82.38
 
 plot(b1, color=supportColor, linewidth=lineWidth, title="Support 1", style=plot.style_line)
 plot(b2, color=supportColor, linewidth=lineWidth, title="Support 2", style=plot.style_line)
