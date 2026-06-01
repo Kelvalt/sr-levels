@@ -203,6 +203,12 @@ else if ticker == "BMNR"
     a3 := 41.62
     a4 := 45.74
     a5 := 50.97
+else if ticker == "BULL"
+    a1 := 9.52
+    a2 := 11.68
+    a3 := 13.63
+    a4 := 16.82
+    a5 := 18.99
 else if ticker == "CAT"
     b1 := 750.04
     b2 := 774.87
