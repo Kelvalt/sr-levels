@@ -97,6 +97,14 @@ else if ticker == "ANET"
     a3 := 172.16
     a4 := 177.0
     a5 := 182.67
+else if ticker == "APLD"
+    b1 := 32.25
+    b2 := 34.41
+    b3 := 36.58
+    b4 := 39.64
+    b5 := 45.19
+    a1 := 48.36
+    a2 := 53.74
 else if ticker == "APP"
     b1 := 483.06
     b2 := 514.82
