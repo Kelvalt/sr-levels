@@ -305,6 +305,12 @@ else if ticker == "EBAY"
     b5 := 109.97
     a1 := 114.41
     a2 := 120.51
+else if ticker == "EOSE"
+    a1 := 11.46
+    a2 := 13.31
+    a3 := 15.57
+    a4 := 16.97
+    a5 := 18.96
 else if ticker == "GEV"
     b1 := 837.71
     b2 := 872.05
