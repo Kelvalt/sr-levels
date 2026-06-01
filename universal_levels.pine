@@ -385,6 +385,12 @@ else if ticker == "GS"
     b3 := 951.3
     b4 := 972.84
     b5 := 994.37
+else if ticker == "HD"
+    a1 := 333.72
+    a2 := 342.29
+    a3 := 349.95
+    a4 := 357.99
+    a5 := 367.65
 else if ticker == "HOOD"
     b1 := 75.66
     b2 := 77.82
