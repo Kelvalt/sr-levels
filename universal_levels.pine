@@ -245,6 +245,12 @@ else if ticker == "CRCL"
     a3 := 196.78
     a4 := 212.36
     a5 := 231.0
+else if ticker == "CRM"
+    a1 := 241.09
+    a2 := 246.06
+    a3 := 249.55
+    a4 := 252.16
+    a5 := 254.43
 else if ticker == "CRWV"
     b1 := 65.28
     b2 := 77.94
