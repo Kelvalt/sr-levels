@@ -587,6 +587,12 @@ else if ticker == "NBIS"
     b3 := 121.75
     b4 := 136.14
     b5 := 140.94
+else if ticker == "NET"
+    b1 := 178.89
+    b2 := 185.15
+    b3 := 192.17
+    b4 := 205.7
+    b5 := 222.73
 else if ticker == "NOW"
     a1 := 680.17
     a2 := 714.34
