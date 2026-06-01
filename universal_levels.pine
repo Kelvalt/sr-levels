@@ -322,6 +322,12 @@ else if ticker == "FCX"
     a3 := 73.77
     a4 := 78.76
     a5 := 82.81
+else if ticker == "FIG"
+    a1 := 33.81
+    a2 := 40.33
+    a3 := 45.55
+    a4 := 52.64
+    a5 := 60.39
 else if ticker == "GEV"
     b1 := 837.71
     b2 := 872.05
